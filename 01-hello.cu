@@ -14,7 +14,7 @@ void printDeviceInfo()
     printf("Name: %s\n", devProv.name);
     printf("Compute capability: %d.%d\n", devProv.major, devProv.minor);
     printf("GMEM: %zu byte\n", devProv.totalGlobalMem);
-    print("Check git commit :D\n")
+    printf("Check git commit :D\n")
     printf("****************************\n");
 }
 
